@@ -1,0 +1,39 @@
+body {
+    margin:0px;
+    background-color: olivedrab;
+}
+
+.my-header {
+    font-family: 'Grandstander', cursive;
+    margin: 0px;
+    
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*
+flex works only for the first child and we have my-img in second child*/
+.my-header-content {
+    margin:10px;
+}
+.my-img  {
+    border-radius:50%;
+    height: 100px;
+    margin-top:10px;
+    box-shadow: #080007 3px 5px 5px;
+  
+
+}
+
+.my-link {
+    color:black;
+    text-decoration: none;
+
+}
+
+.my-h2 {
+    text-align:center;
+    font-size:45px;
+}
